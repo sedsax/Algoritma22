@@ -22,7 +22,7 @@ int recursiveEBOB(int m, int n) {
 
 int main(){
     
-    int m,n,r;
+    int m,n;
     cin>>m>>n;
     
     cout<<"iterative yöntem ile ebob("<<m<<","<<n<<") : "<<iterativeEBOB(m,n)<<endl;
