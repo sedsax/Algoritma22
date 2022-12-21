@@ -1,1 +1,24 @@
 //Algorithms
+Notepad++' da tüm satırların başına ve sonuna karakter eklemem gerekiyordu. Araştırmalarım sonucunda bulduğum ve yaptığım bilgiler şöyle:
+
+KALEM
+SABIR
+BARIŞ
+DÜNYA
+MESAJ
+
+Notepad++' da Ctrl+H yaptığımızda Değiştir bölümü açılıyor, daha sonra 'Aranan' kutusuna ^ işaretini koyduğumuzda ve 'Değiştir' butonuna satırın başına eklemek istediğimiz yazı veya karakteri eklediğimizde satırın başına ekleme yapıyor. Tüm satırlar için aynı şeyi yapacaksak 'Tümünü Değiştir' butonuna da tıklıyoruz. Ve sonuç:
+
+'KALEM
+'SABIR
+'BARIŞ
+'DÜNYA
+'MESAJ
+
+Satırın sonuna ekleme yapmak istersek de 'Aranan' kutusuna $ işareti yazıp gerisini yukardaki gibi yapıyoruz ve sonuç:
+
+'KALEM',
+'SABIR',
+'BARIŞ',
+'DÜNYA',
+'MESAJ',
